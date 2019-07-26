@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>
+      Categories
+    </ion-title>
+    <ion-icon slot="end" name="arrow-round-back" [routerLink]="''" padding></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-item [routerLink]="'/category-page/entertainment'" routerDirection="forward" (ionChange)="go($event)">
+    <ion-avatar slot="start">
+      <img src="https://cdn.pixabay.com/photo/2015/05/15/14/50/concert-768722__340.jpg" alt="entertainment">
+    </ion-avatar>
+    <ion-label>
+      <h2>Entertainment</h2>
+      <p>Read about music, movies, and more</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item [routerLink]="'/category-page/technology'" routerDirection="forward" (ionChange)="go($event)">
+    <ion-avatar slot="start">
+      <img src="https://cdn.pixabay.com/photo/2014/09/20/13/52/board-453758__340.jpg" alt="technology">
+    </ion-avatar>
+    <ion-label>
+      <h2>Technology</h2>
+      <p>Bits and bytes. AI. Cutting-edge newz</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item [routerLink]="'/category-page/sports'" routerDirection="forward" (ionChange)="go($event)">
+    <ion-avatar slot="start">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/03/17/action-1867014__340.jpg" alt="sports">
+    </ion-avatar>
+    <ion-label>
+      <h2>Sports</h2>
+      <p>Stories about champions, successes,and scandals</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item [routerLink]="'/category-page/science'" routerDirection="forward" (ionChange)="go($event)">
+    <ion-avatar slot="start">
+      <img src="https://cdn.pixabay.com/photo/2018/07/15/10/44/dna-3539309__340.jpg" alt="science">
+    </ion-avatar>
+    <ion-label>
+      <h2>Science</h2>
+      <p>New discoveries, bleeding-edge stories in science</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item [routerLink]="'/category-page/business'" routerDirection="forward" (ionChange)="go($event)">
+    <ion-avatar slot="start">
+      <img src="https://cdn.pixabay.com/photo/2016/04/20/08/21/entrepreneur-1340649__340.jpg" alt="business">
+    </ion-avatar>
+    <ion-label>
+      <h2>Business</h2>
+      <p>Money. Markets. Merchandise</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item [routerLink]="'/category-page/health'" routerDirection="forward" (ionChange)="go($event)">
+    <ion-avatar slot="start">
+      <img src="https://cdn.pixabay.com/photo/2016/11/10/02/47/blood-1813410__340.jpg" alt="health">
+    </ion-avatar>
+    <ion-label>
+      <h2>Health</h2>
+      <p>Medicine. Wellness. Wellbeing</p>
+    </ion-label>
+  </ion-item>
+</ion-content>

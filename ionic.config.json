@@ -1,5 +1,7 @@
 {
   "name": "nowNewz",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
